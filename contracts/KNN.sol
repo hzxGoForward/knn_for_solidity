@@ -4,9 +4,9 @@ pragma experimental ABIEncoderV2;
 
 /// @title 委托投票
 contract KNN {
-    
+
     address owner;
-    
+
     int32[] public m_data;
 
     int32[] private m_TrainData;
@@ -23,7 +23,7 @@ contract KNN {
     event DeploySuccess(address _from);
     event ReadDataSuccess(address _from);
 
-    constructor() public {
+    constructor() {
         owner = msg.sender;
         m_data = new int32[](0);
         emit DeploySuccess(msg.sender);
@@ -44,7 +44,7 @@ contract KNN {
         m_TrainData = new int32[](m_train_row*m_column);
         m_TestData = new int32[](m_test_row*m_column);
         m_TrainLabels = new int32[](m_train_row);
-        m_TestLabels = new int32[](m_test_row); 
+        m_TestLabels = new int32[](m_test_row);
 
         uint32 i = 0;
         uint32 test_data_idx = 0;
@@ -74,7 +74,7 @@ contract KNN {
         emit ReadDataSuccess(msg.sender);
     }
 
-    function CorrectRate(uint32 k, uint32 column, uint32 test_row, uint32 train_row) 
+    function CorrectRate(uint32 k, uint32 column, uint32 test_row, uint32 train_row)
     public returns(uint32 CorrectNum){
         require(k < 20, "too many classes");
         m_k = k;
@@ -97,7 +97,8 @@ contract KNN {
         return CorrectNum;
     }
 
-    function Classify(int32[] memory Input) internal returns(int32 idx){
+    function Classify(int32[] memory Input) internal view returns(int32 idx){
+        require(Input.length== m_column, "Error of Input length");
         int32[] memory Distance = new int32[](m_train_row);
         for(uint32 i = 0; i < m_train_row; ++i){
             Distance[i] = 0;
@@ -114,7 +115,7 @@ contract KNN {
         return idx;
     }
 
-    function GetDistance(int32[] memory Input, int32[] memory TrainData, uint32 i) public returns (int32 Dist) {
+    function GetDistance(int32[] memory Input, int32[] memory TrainData, uint32 i) public pure returns (int32 Dist) {
         Dist = 0;
         for(uint32 k = 0; k < Input.length; ++k){
             int32 diff = (Input[k] - TrainData[i++]);
@@ -124,7 +125,7 @@ contract KNN {
     }
 
 
-    function GetMinDistIndex(int32[] memory Distance) internal view returns(int32 Index){
+    function GetMinDistIndex(int32[] memory Distance) internal pure returns(int32 Index){
         int32 DistMin = 9999;
         for(uint32 i = 0; i < Distance.length; ++i){
             if (Distance[i] < DistMin && Distance[i] >= 0){

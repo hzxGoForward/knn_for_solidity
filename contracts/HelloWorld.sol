@@ -6,7 +6,7 @@ contract HelloWorld {
     Good gd;
     uint32[2][] public array;
 
-    constructor() public {
+    constructor() {
         gd = new Good();
         // array = new uint32[2][](0);
         array.push([0,0]);

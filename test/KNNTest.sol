@@ -16,7 +16,7 @@ contract TestKNN {
         uint32 m_train_row;
     }
 
-    constructor() public {
+    constructor() {
         knn = KNN(DeployedAddresses.KNN());
         data_len = 0;
     }
@@ -1437,7 +1437,7 @@ contract TestKNN {
     //     ];
     //     knn.add_data(data0);
     //     Assert.equal(knn.get_data_size(), 1400, "Error data length ");
-        
+
     // }
 
     // function test_add_data1() public {
@@ -2151,7 +2151,7 @@ contract TestKNN {
         uint32 k = 5;
         uint32 m_column = 6;
         uint32 m_test_row = 10;
-        uint32 m_train_row = 50;
+        uint32 m_train_row = 60;
         uint256 res = uint256(knn.CorrectRate(k, m_column, m_test_row, m_train_row));
         Assert.equal(res, uint256(5), "Error of knn_classify");
     }

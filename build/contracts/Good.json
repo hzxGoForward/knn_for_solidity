@@ -35,16 +35,16 @@
       "constant": true
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"sayBad\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sayGood\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/githubSoftware/TruffleProj/knn_for_solidity/contracts/Good.sol\":\"Good\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/githubSoftware/TruffleProj/knn_for_solidity/contracts/Good.sol\":{\"keccak256\":\"0x46737ed9d81f651ec4e889a91c41d928d6b7f8815c9ba4ec5033b63f0a5acc1f\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e251f3b175653c84ae8698cbdc615c7de78ad5ebdc88134dc200df53ce261fe0\",\"dweb:/ipfs/QmdsgPx1ZsCjRVk2afMMXF2GPCXjSKXCLqmmJT3iPW8aac\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5061020e806100206000396000f3fe608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806387f763ca14610058578063cc4eb135146100db575b600080fd5b61006061015e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a0578082015181840152602081019050610085565b50505050905090810190601f1680156100cd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100e361019b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610123578082015181840152602081019050610108565b50505050905090810190601f1680156101505780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600581526020017f476f6f6421000000000000000000000000000000000000000000000000000000815250905090565b60606040518060400160405280600481526020017f426164210000000000000000000000000000000000000000000000000000000081525090509056fea26469706673582212202d4ac2ea08970124397affed86d7a6fb34ecac395c7f66ced38f201d7445f5f264736f6c63430007000033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806387f763ca14610058578063cc4eb135146100db575b600080fd5b61006061015e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a0578082015181840152602081019050610085565b50505050905090810190601f1680156100cd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100e361019b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610123578082015181840152602081019050610108565b50505050905090810190601f1680156101505780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600581526020017f476f6f6421000000000000000000000000000000000000000000000000000000815250905090565b60606040518060400160405280600481526020017f426164210000000000000000000000000000000000000000000000000000000081525090509056fea26469706673582212202d4ac2ea08970124397affed86d7a6fb34ecac395c7f66ced38f201d7445f5f264736f6c63430007000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"sayBad\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sayGood\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/zxhu/github/knn_for_solidity/contracts/Good.sol\":\"Good\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/zxhu/github/knn_for_solidity/contracts/Good.sol\":{\"keccak256\":\"0xed7257a676ddf0077fc5919fadf1d5a189aad16abe34e146f16aa6101be87e15\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://2341d4a2475047e552eb2458cf54e0241675dca722ab510e800405089790e590\",\"dweb:/ipfs/QmTWNPRAhnYXE3jNfox7ce6qBbvoJ57BdsSc5JTitXd2Lb\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061020e806100206000396000f3fe608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806387f763ca14610058578063cc4eb135146100db575b600080fd5b61006061015e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a0578082015181840152602081019050610085565b50505050905090810190601f1680156100cd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100e361019b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610123578082015181840152602081019050610108565b50505050905090810190601f1680156101505780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600581526020017f476f6f6421000000000000000000000000000000000000000000000000000000815250905090565b60606040518060400160405280600481526020017f426164210000000000000000000000000000000000000000000000000000000081525090509056fea26469706673582212201ebb71c1dec210cf90aacc6281f60be8d960e89d76991a658680894063cb078a64736f6c63430007000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610053576000357c01000000000000000000000000000000000000000000000000000000009004806387f763ca14610058578063cc4eb135146100db575b600080fd5b61006061015e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a0578082015181840152602081019050610085565b50505050905090810190601f1680156100cd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100e361019b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610123578082015181840152602081019050610108565b50505050905090810190601f1680156101505780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600581526020017f476f6f6421000000000000000000000000000000000000000000000000000000815250905090565b60606040518060400160405280600481526020017f426164210000000000000000000000000000000000000000000000000000000081525090509056fea26469706673582212201ebb71c1dec210cf90aacc6281f60be8d960e89d76991a658680894063cb078a64736f6c63430007000033",
   "immutableReferences": {},
-  "sourceMap": "72:244:0:-:0;;;93:30;;;;;;;;;;72:244;;;;;;",
-  "deployedSourceMap": "72:244:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;131:88;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;227:86;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;131:88;171:13;197:14;;;;;;;;;;;;;;;;;;;131:88;:::o;227:86::-;266:13;292;;;;;;;;;;;;;;;;;;;227:86;:::o",
-  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\ncontract Good {\r\n    constructor()public {\r\n\r\n    }\r\n\r\n    function sayGood() public pure returns (string memory) {\r\n        return \"Good!\";\r\n    }\r\n\r\n    function sayBad() public pure returns (string memory) {\r\n        return \"Bad!\";\r\n    }\r\n}",
-  "sourcePath": "D:\\githubSoftware\\TruffleProj\\knn_for_solidity\\contracts\\Good.sol",
+  "sourceMap": "72:237:0:-:0;;;93:23;;;;;;;;;;72:237;;;;;;",
+  "deployedSourceMap": "72:237:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:88;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;220:86;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:88;164:13;190:14;;;;;;;;;;;;;;;;;;;124:88;:::o;220:86::-;259:13;285;;;;;;;;;;;;;;;;;;;220:86;:::o",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\ncontract Good {\r\n    constructor(){\r\n\r\n    }\r\n\r\n    function sayGood() public pure returns (string memory) {\r\n        return \"Good!\";\r\n    }\r\n\r\n    function sayBad() public pure returns (string memory) {\r\n        return \"Bad!\";\r\n    }\r\n}\r\n",
+  "sourcePath": "/home/zxhu/github/knn_for_solidity/contracts/Good.sol",
   "ast": {
-    "absolutePath": "/D/githubSoftware/TruffleProj/knn_for_solidity/contracts/Good.sol",
+    "absolutePath": "/home/zxhu/github/knn_for_solidity/contracts/Good.sol",
     "exportedSymbols": {
       "Good": [
         22
@@ -86,7 +86,7 @@
             "body": {
               "id": 4,
               "nodeType": "Block",
-              "src": "113:10:0",
+              "src": "106:10:0",
               "statements": []
             },
             "documentation": null,
@@ -107,10 +107,10 @@
               "id": 3,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "113:0:0"
+              "src": "106:0:0"
             },
             "scope": 22,
-            "src": "93:30:0",
+            "src": "93:23:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -119,7 +119,7 @@
             "body": {
               "id": 12,
               "nodeType": "Block",
-              "src": "186:33:0",
+              "src": "179:33:0",
               "statements": [
                 {
                   "expression": {
@@ -132,7 +132,7 @@
                     "kind": "string",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "204:7:0",
+                    "src": "197:7:0",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_stringliteral_9ec8e231b5238c087a0c0d9c2d32f377df80a10e6233a2c3b96524940e9dac02",
@@ -143,7 +143,7 @@
                   "functionReturnParameters": 9,
                   "id": 11,
                   "nodeType": "Return",
-                  "src": "197:14:0"
+                  "src": "190:14:0"
                 }
               ]
             },
@@ -160,7 +160,7 @@
               "id": 6,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "147:2:0"
+              "src": "140:2:0"
             },
             "returnParameters": {
               "id": 9,
@@ -174,7 +174,7 @@
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
                   "scope": 13,
-                  "src": "171:13:0",
+                  "src": "164:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -185,7 +185,7 @@
                     "id": 7,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "171:6:0",
+                    "src": "164:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -195,10 +195,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "170:15:0"
+              "src": "163:15:0"
             },
             "scope": 22,
-            "src": "131:88:0",
+            "src": "124:88:0",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -207,7 +207,7 @@
             "body": {
               "id": 20,
               "nodeType": "Block",
-              "src": "281:32:0",
+              "src": "274:32:0",
               "statements": [
                 {
                   "expression": {
@@ -220,7 +220,7 @@
                     "kind": "string",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "299:6:0",
+                    "src": "292:6:0",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_stringliteral_d81e592ea84b3f4aa03a9c5c3d6beaaffb8c4b870e4032486a48c21a3f67b31e",
@@ -231,7 +231,7 @@
                   "functionReturnParameters": 17,
                   "id": 19,
                   "nodeType": "Return",
-                  "src": "292:13:0"
+                  "src": "285:13:0"
                 }
               ]
             },
@@ -248,7 +248,7 @@
               "id": 14,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "242:2:0"
+              "src": "235:2:0"
             },
             "returnParameters": {
               "id": 17,
@@ -262,7 +262,7 @@
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
                   "scope": 21,
-                  "src": "266:13:0",
+                  "src": "259:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -273,7 +273,7 @@
                     "id": 15,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "266:6:0",
+                    "src": "259:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -283,275 +283,337 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "265:15:0"
+              "src": "258:15:0"
             },
             "scope": 22,
-            "src": "227:86:0",
+            "src": "220:86:0",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 23,
-        "src": "72:244:0"
+        "src": "72:237:0"
       }
     ],
-    "src": "37:279:0"
+    "src": "37:274:0"
   },
   "legacyAST": {
-    "absolutePath": "/D/githubSoftware/TruffleProj/knn_for_solidity/contracts/Good.sol",
-    "exportedSymbols": {
-      "Good": [
-        22
-      ]
+    "attributes": {
+      "absolutePath": "/home/zxhu/github/knn_for_solidity/contracts/Good.sol",
+      "exportedSymbols": {
+        "Good": [
+          22
+        ]
+      },
+      "license": "GPL-3.0"
     },
-    "id": 23,
-    "license": "GPL-3.0",
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.7",
+            ".0",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
         "id": 1,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.7",
-          ".0",
-          "<",
-          "0.9",
-          ".0"
-        ],
-        "nodeType": "PragmaDirective",
+        "name": "PragmaDirective",
         "src": "37:31:0"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [],
-        "contractKind": "contract",
-        "documentation": null,
-        "fullyImplemented": true,
-        "id": 22,
-        "linearizedBaseContracts": [
-          22
-        ],
-        "name": "Good",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            22
+          ],
+          "name": "Good",
+          "scope": 23
+        },
+        "children": [
           {
-            "body": {
-              "id": 4,
-              "nodeType": "Block",
-              "src": "113:10:0",
-              "statements": []
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "overrides": null,
+              "scope": 22,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
             },
-            "documentation": null,
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "104:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3,
+                "name": "ParameterList",
+                "src": "106:0:0"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4,
+                "name": "Block",
+                "src": "106:10:0"
+              }
+            ],
             "id": 5,
-            "implemented": true,
-            "kind": "constructor",
-            "modifiers": [],
-            "name": "",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 2,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "104:2:0"
-            },
-            "returnParameters": {
-              "id": 3,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "113:0:0"
-            },
-            "scope": 22,
-            "src": "93:30:0",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
+            "name": "FunctionDefinition",
+            "src": "93:23:0"
           },
           {
-            "body": {
-              "id": 12,
-              "nodeType": "Block",
-              "src": "186:33:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "hexValue": "476f6f6421",
-                    "id": 10,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": true,
-                    "kind": "string",
-                    "lValueRequested": false,
-                    "nodeType": "Literal",
-                    "src": "204:7:0",
-                    "subdenomination": null,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_stringliteral_9ec8e231b5238c087a0c0d9c2d32f377df80a10e6233a2c3b96524940e9dac02",
-                      "typeString": "literal_string \"Good!\""
-                    },
-                    "value": "Good!"
-                  },
-                  "functionReturnParameters": 9,
-                  "id": 11,
-                  "nodeType": "Return",
-                  "src": "197:14:0"
-                }
-              ]
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "87f763ca",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "sayGood",
+              "overrides": null,
+              "scope": 22,
+              "stateMutability": "pure",
+              "virtual": false,
+              "visibility": "public"
             },
-            "documentation": null,
-            "functionSelector": "87f763ca",
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6,
+                "name": "ParameterList",
+                "src": "140:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 13,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 7,
+                        "name": "ElementaryTypeName",
+                        "src": "164:6:0"
+                      }
+                    ],
+                    "id": 8,
+                    "name": "VariableDeclaration",
+                    "src": "164:13:0"
+                  }
+                ],
+                "id": 9,
+                "name": "ParameterList",
+                "src": "163:15:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 9
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "476f6f6421",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"Good!\"",
+                          "value": "Good!"
+                        },
+                        "id": 10,
+                        "name": "Literal",
+                        "src": "197:7:0"
+                      }
+                    ],
+                    "id": 11,
+                    "name": "Return",
+                    "src": "190:14:0"
+                  }
+                ],
+                "id": 12,
+                "name": "Block",
+                "src": "179:33:0"
+              }
+            ],
             "id": 13,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "sayGood",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 6,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "147:2:0"
-            },
-            "returnParameters": {
-              "id": 9,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 8,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 13,
-                  "src": "171:13:0",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 7,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "171:6:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "170:15:0"
-            },
-            "scope": 22,
-            "src": "131:88:0",
-            "stateMutability": "pure",
-            "virtual": false,
-            "visibility": "public"
+            "name": "FunctionDefinition",
+            "src": "124:88:0"
           },
           {
-            "body": {
-              "id": 20,
-              "nodeType": "Block",
-              "src": "281:32:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "hexValue": "42616421",
-                    "id": 18,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": true,
-                    "kind": "string",
-                    "lValueRequested": false,
-                    "nodeType": "Literal",
-                    "src": "299:6:0",
-                    "subdenomination": null,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_stringliteral_d81e592ea84b3f4aa03a9c5c3d6beaaffb8c4b870e4032486a48c21a3f67b31e",
-                      "typeString": "literal_string \"Bad!\""
-                    },
-                    "value": "Bad!"
-                  },
-                  "functionReturnParameters": 17,
-                  "id": 19,
-                  "nodeType": "Return",
-                  "src": "292:13:0"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "cc4eb135",
-            "id": 21,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "sayBad",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 14,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "242:2:0"
-            },
-            "returnParameters": {
-              "id": 17,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 16,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 21,
-                  "src": "266:13:0",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 15,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "266:6:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "cc4eb135",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "265:15:0"
+              "name": "sayBad",
+              "overrides": null,
+              "scope": 22,
+              "stateMutability": "pure",
+              "virtual": false,
+              "visibility": "public"
             },
-            "scope": 22,
-            "src": "227:86:0",
-            "stateMutability": "pure",
-            "virtual": false,
-            "visibility": "public"
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 14,
+                "name": "ParameterList",
+                "src": "235:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 21,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 15,
+                        "name": "ElementaryTypeName",
+                        "src": "259:6:0"
+                      }
+                    ],
+                    "id": 16,
+                    "name": "VariableDeclaration",
+                    "src": "259:13:0"
+                  }
+                ],
+                "id": 17,
+                "name": "ParameterList",
+                "src": "258:15:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 17
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "42616421",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"Bad!\"",
+                          "value": "Bad!"
+                        },
+                        "id": 18,
+                        "name": "Literal",
+                        "src": "292:6:0"
+                      }
+                    ],
+                    "id": 19,
+                    "name": "Return",
+                    "src": "285:13:0"
+                  }
+                ],
+                "id": 20,
+                "name": "Block",
+                "src": "274:32:0"
+              }
+            ],
+            "id": 21,
+            "name": "FunctionDefinition",
+            "src": "220:86:0"
           }
         ],
-        "scope": 23,
-        "src": "72:244:0"
+        "id": 22,
+        "name": "ContractDefinition",
+        "src": "72:237:0"
       }
     ],
-    "src": "37:279:0"
+    "id": 23,
+    "name": "SourceUnit",
+    "src": "37:274:0"
   },
   "compiler": {
     "name": "solc",
@@ -561,12 +623,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0E9e6dF5e5796edB1B1B1E66F7d94515F121Aac5",
-      "transactionHash": "0x1c2d9d6dc7fb5ea3cadc992fcd1bdc9efc0b52d1b532a538ba54cb4e0954350a"
+      "address": "0x206d3aED936027886258ceA6d84E2Bb8e07e4282",
+      "transactionHash": "0x80d4e692d3631d884dc9b6f9bb16309c18f52896cc948e1fc4324b5788da88f3"
     }
   },
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2021-06-27T17:29:17.240Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-30T03:36:59.077Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
